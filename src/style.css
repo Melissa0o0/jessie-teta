@@ -12,11 +12,16 @@ body {
 }
 
 .hero {
-  background: url("src/image.jpg/London7.JPG") center no-repeat;
+  background: url("src/image.jpg/London7.JPG") center/cover no-repeat;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 150px 20px;
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero::before {
