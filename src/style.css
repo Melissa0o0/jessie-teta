@@ -12,10 +12,11 @@ body {
 }
 
 .hero {
+  background-image: center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 150px 20px;
-  position: relative;
+  background-position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
