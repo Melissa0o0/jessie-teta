@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-  background: url("images.jpg/London7.jpg") center/cover no-repeat;
+  background: image(src= "src/image.jpg/London7") / cover no-repeat;
   color: white;
   text-align: center;
   padding: 100px 20px;
