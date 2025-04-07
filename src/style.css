@@ -26,6 +26,44 @@ body {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+.featured {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.featured h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.featured-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #555;
+}
 
 .bio,
 .gallery,
