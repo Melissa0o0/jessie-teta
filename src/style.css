@@ -12,18 +12,16 @@ body {
 }
 
 .hero {
-  background-image: center/cover no-repeat;
+  background: url("image.jpg/London7.JPG") center/cover no-repeat;
+  height: 100vh; /* full screen */
   color: white;
   text-align: center;
-  padding: 150px 20px;
-  background-position: relative;
-  min-height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
-
 .hero::before {
   content: "";
   position: absolute;
@@ -31,22 +29,26 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  background: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* optional dark overlay for text readability */
   z-index: 1;
 }
+
 .hero h1,
 .hero p {
   position: relative;
   z-index: 2;
 }
-
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-top: 10px;
+  font-size: 1.5rem;
 }
 .featured {
   padding: 60px 20px;
