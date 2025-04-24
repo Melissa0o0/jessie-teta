@@ -3,17 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Portfolio</title>
   </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <body>
     <header class="hero">
       <h1>Jessie Teta</h1>
-      <p>Commercial Model | Content Creator??</p>
+      <p>Commercial Model | Content Creator</p>
     </header>
+    <section class="body-measurements">
+      <h2>Portraits</h2>
+      <div class="scroll-container">
+        <div class="item">
+          <img src="src/image.jpg/portraits2.JPG" alt="Portrait 1" />
+          <p>Hair - Black</p>
+          <p>Eye colour: Black-Brown</p>
+        </div>
+        <div class="item">
+          <img src="src/image.jpg/portraits1.JPG" alt="Portrait 2" />
+          <p>Bust - 91 cm</p>
+        </div>
+        <div class="item">
+          <img src="src/image.jpg/portraits6.JPG" alt="Portrait 3" />
+          <p>Hips - 114 cm</p>
+        </div>
+        <div class="item">
+          <img src="src/image.jpg/portraits7.JPG" alt="Portrait 1" />
+          <p>Waist - 73 cm</p>
+        </div>
+        <div class="item">
+          <img src="src/image.jpg/portraits5.JPG" alt="Portrait 1" />
+          <p>Height - 175 cm</p>
+        </div>
+        <div class="item">
+          <img src="src/image.jpg/portraits9.JPG" alt="Portrait 1" />
+          <p>Shoes: EU 40</p>
+        </div>
+      </div>
+    </section>
+
     <section class="featured">
       <h2>Featured Works</h2>
       <div class="featured-grid">
+        <div class="feature">
+          <img src="src/image.jpg/bluehair4.JPG" alt="Featured Work 3" />
+          <h3>Fashion Muse</h3>
+          <p>Urutozi Gakondo, 2022</p>
+          <p>Kigali Rwanda</p>
+        </div>
         <div class="feature">
           <img src="src/image.jpg/amike3.JPG" alt="Featured Work 2" />
           <h3>Decolonising Fashion</h3>
@@ -25,12 +67,6 @@
           <h3>Renaissance Fashion Show</h3>
           <p>Bolley Clothing, 2024</p>
           <p>Berlin, Germany</p>
-        </div>
-        <div class="feature">
-          <img src="src/image.jpg/bluehair4.JPG" alt="Featured Work 3" />
-          <h3>Fashion Muse</h3>
-          <p>Urutozi Gakondo, 2022</p>
-          <p>Kigali Rwanda</p>
         </div>
       </div>
     </section>
@@ -56,51 +92,153 @@
     <section class="gallery">
       <h2>Portfolio</h2>
       <div class="grid">
-        <img src="src/image.jpg/London2.JPG" alt="Model Pose 1" />
-        <img src="src/image.jpg/London4.JPG" alt="Model Pose 2" />
-        <img src="src/image.jpg/London8.JPG" alt="Model Pose 3" />
-        <img src="src/image.jpg/London9.JPG" alt="Model Pose 4" />
-        <img src="src/image.jpg/Horse3.JPG" alt="Model Pose 5" />
-        <img src="src/image.jpg/Horse5.JPG" alt="Model Pose 6" />
-        <img src="src/image.jpg/Horse6.JPG" alt="Model Pose 7" />
-        <img src="src/image.jpg/Horse7.JPG" alt="Model Pose 8" />
-        <img src="src/image.jpg/PixieShort3.JPG" alt="Model Pose 9" />
-        <img src="src/image.jpg/PixieShort2.JPG" alt="Model Pose 10" />
-        <img src="src/image.jpg/LondonPixie.JPG" alt="Model Pose 12" />
-        <img src="src/image.jpg/PixieLong4.JPG" alt="Model Pose 13" />
-        <img src="src/image.jpg/WhiteDress3.JPG" alt="Model Pose 14" />
-        <img src="src/image.jpg/WhiteDress5.JPG" alt="Model Pose 15" />
-        <img src="src/image.jpg/WhiteDress6.JPG" alt="Model Pose 16" />
-        <img src="src/image.jpg/Hotelroom4.HEIC" alt="Model Pose 17" />
-        <img src="src/image.jpg/Hotelroom5.HEIC" alt="Model Pose 18" />
-        <img src="src/image.jpg/Hotelroom6.HEIC" alt="Model Pose 19" />
-        <img src="src/image.jpg/Redtop1.JPG" alt="Model Pose 11" />
-        <img src="src/image.jpg/Redtop2.JPG" alt="Model Pose 12" />
-        <img src="src/image.jpg/Redtop3.JPG" alt="Model Pose 13" />
-        <img src="src/image.jpg/streetshot10.JPG" alt="Model Pose 14" />
-        <img src="src/image.jpg/streetshot11.JPG" alt="Model Pose 15" />
-        <img src="src/image.jpg/streetshot12.JPG" alt="Model Pose 16" />
-        <img src="src/image.jpg/streetshot16.JPG" alt="Model Pose 17" />
-        <img src="src/image.jpg/Bolie1.JPG" alt="Model Pose 18" />
-        <img src="src/image.jpg/Bolie2.JPG" alt="Model Pose 19" />
-        <img src="src/image.jpg/Berlinstreets2.JPG" alt="Model Pose 20" />
-        <img src="src/image.jpg/Berlinstreets7.JPG" alt="Model Pose 21" />
-        <img src="src/image.jpg/Berlinstreets8.JPG" alt="Model Pose 22" />
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/London2.JPG" alt="Model Pose 1"
+        /></a>
+        <a href="src/image.jpg/London4.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/London4.JPG" alt="Model Pose 2"
+        /></a>
+
+        <a href="src/image.jpg/London8.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/London8.JPG" alt="Model Pose 3"
+        /></a>
+        <a href="src/image.jpg/London9.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/London9.JPG" alt="Model Pose 4"
+        /></a>
+
+        <a href="src/image.jpg/Horse3.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Horse3.JPG" alt="Model Pose 5"
+        /></a>
+
+        <a href="src/image.jpg/Horse5.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Horse5.JPG" alt="Model Pose 6"
+        /></a>
+
+        <a href="src/image.jpg/Horse6.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Horse6.JPG" alt="Model Pose 7"
+        /></a>
+        <a href="src/image.jpg/Horse7.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Horse7.JPG" alt="Model Pose 8"
+        /></a>
+        <a href="src/image.jpg/PixieShort3.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/PixieShort3.JPG" alt="Model Pose 9"
+        /></a>
+        <a href="src/image.jpg/PixieShort2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/PixieShort2.JPG" alt="Model Pose 10"
+        /></a>
+        <a href="src/image.jpg/LondonPixie.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/LondonPixie.JPG" alt="Model Pose 12"
+        /></a>
+        <a href="src/image.jpg/PixieLong4.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/PixieLong4.JPG" alt="Model Pose 13"
+        /></a>
+        <a href="src/image.jpg/WhiteDress3.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/WhiteDress3.JPG" alt="Model Pose 14"
+        /></a>
+        <a href="src/image.jpg/WhiteDress5.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/WhiteDress5.JPG" alt="Model Pose 15"
+        /></a>
+
+        <a href="src/image.jpg/WhiteDress6.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/WhiteDress6.JPG" alt="Model Pose 16"
+        /></a>
+        <a href="src/image.jpg/Hotelroom4.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Hotelroom4.HEIC" alt="Model Pose 17"
+        /></a>
+        <a href="src/image.jpg/Hotelroom5.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Hotelroom5.HEIC" alt="Model Pose 18"
+        /></a>
+        <a href="src/image.jpg/Hotelroom6.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Hotelroom6.HEIC" alt="Model Pose 19"
+        /></a>
+        <a href="src/image.jpg/Redtop1.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Redtop1.JPG" alt="Model Pose 11"
+        /></a>
+
+        <a href="src/image.jpg/Redtop2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Redtop2.JPG" alt="Model Pose 12"
+        /></a>
+        <a href="src/image.jpg/Redtop3.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Redtop3.JPG" alt="Model Pose 13"
+        /></a>
+        <a href="src/image.jpg/streetshot10.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/streetshot10.JPG" alt="Model Pose 14"
+        /></a>
+        <a href="src/image.jpg/streetshot11.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/streetshot11.JPG" alt="Model Pose 15"
+        /></a>
+        <a href="src/image.jpg/streetshot12.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/streetshot12.JPG" alt="Model Pose 16"
+        /></a>
+        <a href="src/image.jpg/streetshot16.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/streetshot16.JPG" alt="Model Pose 17"
+        /></a>
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Bolie1.JPG" alt="Model Pose 18"
+        /></a>
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Bolie2.JPG" alt="Model Pose 19"
+        /></a>
+
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Berlinstreets2.JPG" alt="Model Pose 20"
+        /></a>
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Berlinstreets7.JPG" alt="Model Pose 21"
+        /></a>
+
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/Berlinstreets8.JPG" alt="Model Pose 22"
+        /></a>
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/bluehair3.JPG" alt="Model Pose 23"
+        /></a>
+
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/bluehair4.JPG" alt="Model Pose 24"
+        /></a>
+
+        <a href="src/image.jpg/London2.JPG" data-lightbox="gallery">
+          <img src="src/image.jpg/bluehair2.JPG" alt="Model Pose 25"
+        /></a>
       </div>
     </section>
 
     <section class="contact">
-      <h2>Contact</h2>
-      <form>
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Your message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+      <h2><p>Contact Me</p></h2>
+      <div class="contact-info">
+        <div class="item">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:your-email@example.com">your-email@example.com</a>
+          </p>
+        </div>
+        <div class="item">
+          <p>
+            <strong>Phone:</strong> <a href="tel:+1234567890">+1234567890</a>
+          </p>
+        </div>
+        <div class="item">
+          <p><strong>Social Media:</strong></p>
+          <div class="social-links">
+            <p>
+              <a href="https://instagram.com/jessie.ovo" target="_blank"
+                >Instagram</a
+              >
+            </p>
+            <p>
+              <a href="https://tiktok.com/@pineapplessssss26" target="_blank"
+                >TikTok</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-      <p>&copy; 2025 Alex Taylor. All rights reserved.</p>
+      <p>&copy; Jessie Teta. All rights reserved.</p>
     </footer>
+    <script src="src/script.js"></script>
   </body>
 </html>
